@@ -1,0 +1,18 @@
+.header__lang {
+  display: flex;
+  gap: 18px;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
+
+.header__lang a {
+  text-decoration: none;
+}
+
+.header__lang a:first-child {
+  text-decoration: underline;
+}
