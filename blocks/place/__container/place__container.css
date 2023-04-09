@@ -1,0 +1,8 @@
+.place__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.place__container:first-child {
+  margin-right: 40px;
+}
