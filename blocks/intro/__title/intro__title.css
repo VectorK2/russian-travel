@@ -1,9 +1,8 @@
 .intro__title {
-  padding-left: 16px;
-  width: 690px;
-  height: 58px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
+	margin-top: 92px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 54px;
+	line-height: 58px;
+	max-width: 690px;
 }
