@@ -8,3 +8,8 @@
   font-size: 30px;
   line-height: 36px;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__description {
+    padding: 0px 24px 0 24px;
+  }

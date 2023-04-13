@@ -1,0 +1,10 @@
+.footer__copyright {
+	margin-top: 2px;
+	margin-right: 48px;
+}
+
+@media screen and (max-width: 1024px){
+  .places {
+    padding: 0 48px 0;
+  }
+}

@@ -6,3 +6,9 @@
   margin-top: 92px;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1024px){
+  .places {
+    padding: 0 48px 0;
+  }
+}
