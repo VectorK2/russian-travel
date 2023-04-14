@@ -6,3 +6,11 @@
 .place__container:first-child {
   margin-right: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__container:first-child {
+    max-width: 440px;
+    width: 100%;
+  }
+  
+}

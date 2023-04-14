@@ -9,4 +9,11 @@
 	max-height: 225px;
 	width: 100%;
   }
+	
+@media screen and (max-width: 768px) {
+  .photo-grid__image {
+	max-width: 352px;
+	max-height: 264px;
+	width: 100%;
+  }
   }

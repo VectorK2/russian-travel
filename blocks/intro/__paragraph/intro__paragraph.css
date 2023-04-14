@@ -1,14 +1,22 @@
 .intro__paragraph {
-	list-style-type: none;
-	max-width: 690px;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 12px;
-	line-height: 18px;
+  list-style-type: none;
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
 }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__paragraph {
-	line-height: 26.08px;
-	font-size: ;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 720px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__paragraph {
+    max-width: 288px;
+  }
+}

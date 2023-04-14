@@ -5,3 +5,10 @@
   flex-direction: column;
   color: white;
 }
+
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+  }
+  
+}

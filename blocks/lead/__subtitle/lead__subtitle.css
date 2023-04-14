@@ -1,4 +1,4 @@
-.lead__description {
+.lead__subtitle {
   margin-top: 32px;
   margin-bottom: 64px;
   text-align: center;
@@ -10,6 +10,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead__description {
+  .lead__subtitle {
     padding: 0px 24px 0 24px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

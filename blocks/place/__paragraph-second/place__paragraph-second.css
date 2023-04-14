@@ -6,3 +6,9 @@
   line-height: 29px;
   color: white;
 }
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-second {
+    margin: 25px 16px 0;
+  }
+}

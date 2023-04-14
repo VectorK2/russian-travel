@@ -5,17 +5,19 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  /* or 104% */
-
   text-align: center;
 }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 675px) {
   .lead__title {
-    padding: 0px 24px 0;
+    font-size: 40px;
+    line-height: 44px;
   }
+}
 
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .lead__title {
-    padding: 0px 16px 0;
+    font-size: 40px;
+    line-height: 44px;
   }
+}
