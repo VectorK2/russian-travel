@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 92px;
+  margin: 92px 0 0 0;
+  padding: 0;
   color: white;
   background-image: url("../../images/background.jpg");
   max-width: 1184px;

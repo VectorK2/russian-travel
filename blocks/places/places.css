@@ -3,8 +3,9 @@
   flex-direction: column;
   gap: 80px;
   color: white;
-  margin-top: 92px;
+  margin: 92px 0 0 0;
   max-width: 984px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
