@@ -1,12 +1,10 @@
 .intro {
   max-width: 984px;
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: left;
-  color: white;
-  margin: 0;
-  padding: 0;
+  color: white;;
 }
 
 @media (max-width: 1024px) {

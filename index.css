@@ -1,3 +1,4 @@
+@import "vendor/normalize.css";
 @import "fonts.css";
 
 @import "blocks/header/header.css";
@@ -18,6 +19,8 @@
 @import "blocks/intro/__title/intro__title.css";
 @import "blocks/intro/__text/intro__text.css";
 @import "blocks/intro/__paragraph/intro__paragraph.css";
+@import "blocks/intro/__list/intro__list.css";
+@import "blocks/intro/__numbers/intro__numbers.css";
 
 @import "blocks/photo-grid/photo-grid.css";
 @import "blocks/photo-grid/__image/photo-grid__image.css";
