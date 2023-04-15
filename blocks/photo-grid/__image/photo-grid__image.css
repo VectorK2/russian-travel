@@ -1,19 +1,20 @@
 .photo-grid__image {
-	max-width: 284px;
-	max-height: 213px;
+  max-width: 284px;
+  max-height: 213px;
 }
 
 @media screen and (max-width: 1185px) {
   .photo-grid__image {
-	max-width: 300px;
-	max-height: 225px;
-	width: 100%;
+    max-width: 300px;
+    max-height: 225px;
+    width: 100%;
   }
-	
+}
+
 @media screen and (max-width: 768px) {
   .photo-grid__image {
-	max-width: 352px;
-	max-height: 264px;
-	width: 100%;
+    max-width: 352px;
+    max-height: 264px;
+    width: 100%;
   }
-  }
+}
