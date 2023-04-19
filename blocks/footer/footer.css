@@ -1,20 +1,24 @@
 .footer {
-  display: flex;
-  max-width: 1184px;
-  width: 100%;
-  height: 18px;
-  padding: 92px 0 24px;
-  color: white;
-  justify-content: space-between;
-  margin: 0;
+    display: flex;
+    width: auto;
+    padding: 92px 48px 48px;
+    color: white;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #2A2C2F;
+    font-family: 'Inter', serif;
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 88px 24px 24px;
+    }
 }
 
 @media screen and (max-width: 675px) {
-  .footer {
-    display: flex;
-    flex-direction: column;
-    padding: 64px 0 24px;
-    height: auto;
-    
-  }
+    .footer {
+        flex-direction: column;
+        padding: 64px 0 24px;
+    }
 }

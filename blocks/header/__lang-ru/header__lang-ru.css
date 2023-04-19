@@ -1,0 +1,9 @@
+.header__lang-ru {
+  text-decoration: underline;
+  color: #E5E5E5;
+  opacity: 1;
+}
+
+.header__lang-ru:hover {
+  opacity: 0.8;
+}
