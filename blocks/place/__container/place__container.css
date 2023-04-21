@@ -17,3 +17,13 @@
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    .place__container {
+        gap: 0;
+    }
+
+    .place__container {
+        margin-bottom: 20px;
+    }
+}

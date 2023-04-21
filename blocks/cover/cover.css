@@ -5,3 +5,24 @@
     align-items: center;
     width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        max-height: 740px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        max-height: 480px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: -30px;
+    }
+}
