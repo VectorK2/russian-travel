@@ -3,7 +3,7 @@
   grid-template-columns: 460px 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 42px;
-  margin: 0 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0;
 }
 
@@ -25,14 +25,20 @@
   .place {
     display: block;
   }
-}
-
-@media screen and (max-width: 320px) {
-  .place:first-child {
-    margin: 0 0 16px 0;
+  
+  .place:nth-child(1) {
+    margin-top: 0;
   }
   
-  .place:last-child {
-    margin: 22px 0 0 0;
+  .place:nth-child(2) {
+    margin-top: 75px;
+  }
+  
+  .place:nth-child(3) {
+    margin-top: 47px;
+  }
+  
+  .place:nth-child(5) {
+    margin-top: 75px;
   }
 }
