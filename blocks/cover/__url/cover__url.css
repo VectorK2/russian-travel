@@ -1,57 +1,58 @@
 .cover__url {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../../../images/background.jpg");
-    background-size: cover;
-    height: 740px;
-    width: 100%;
-    gap: 32px;
-    margin: 92px 0 0 0;
-    padding: 0;
-    color: white;
-    max-width: 1184px;
-    position: relative;
-    text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../images/background.jpg");
+  background-size: cover;
+  height: 740px;
+  width: 100%;
+  gap: 32px;
+  margin: 92px 0 0 0;
+  padding: 0;
+  color: white;
+  max-width: 1184px;
+  position: relative;
+  text-decoration: none;
 }
 
 .cover__url::before {
-    content: "";
-    background-color: #2A2C2F;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    opacity: 0.3;
-    transition: opacity 0.3s;
+  content: "";
+  background-color: #2A2C2F;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.3;
+  transition: opacity 0.3s;
 }
 
 .cover__url:hover::before {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 
 @media screen and (max-width: 1280px) {
-    .cover__url {
-        max-width: 1184px;
-        max-height: 740px;
-        width: 100%;
-    }
-
+  .cover__url {
+    max-width: 1184px;
+    max-height: 740px;
+    width: 100%;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
-    .cover__url {
-        margin: 0 0 0 0;
-    }
-
+  .cover__url {
+    margin: 0 0 0 0;
+  }
+  
 }
 
 @media screen and (max-width: 320px) {
-    .cover__url {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-top: 66px;
-        height: 200px;
-    }
+  .cover__url {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 66px;
+    height: 200px;
+    gap: 16px;
+  }
 }
