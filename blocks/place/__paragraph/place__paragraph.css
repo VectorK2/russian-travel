@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 675px) {
   .place__paragraph:first-child {
     margin: 0 0 25px;
   }
