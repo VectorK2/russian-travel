@@ -7,6 +7,22 @@
   padding: 0;
 }
 
+.place:nth-child(2) {
+  margin-top: 10px;
+}
+
+.place:nth-child(3) {
+  margin-top: 0;
+}
+
+.place:nth-child(4) {
+  margin-top: 0;
+}
+
+.place:nth-child(5) {
+  margin-top: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-column-gap: 14px;
@@ -19,6 +35,10 @@
     grid-template-columns: 340px 1fr;
     grid-row-gap: 36px;
   }
+}
+
+.place:nth-child(2) {
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 675px) {
