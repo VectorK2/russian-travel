@@ -1,9 +1,9 @@
 .places {
   display: flex;
   flex-direction: column;
-  gap: 78px;
+  gap: 80px;
   color: white;
-  margin: 42px 0 0 0;
+  margin: 92px 0 0 0;
   max-width: 984px;
   padding: 0;
 }
@@ -17,14 +17,16 @@
 
 @media screen and (max-width: 768px) {
   .places {
+    margin: 88px 0 0 0;
     max-width: 720px;
-    gap: 75px;
+    gap: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
     margin: 64px 0 0 0; /**/
-    gap: 0px;
+    gap: 50px;
+    
   }
 }
